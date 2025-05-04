@@ -1,0 +1,21 @@
+{
+  "name": "space-explorer",
+  "version": "1.0.0",
+  "description": "A Node.js command-line application for space-related data using NASA, ISS, and Launch Library APIs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["space", "nasa", "iss", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
