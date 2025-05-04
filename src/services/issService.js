@@ -30,10 +30,8 @@ class ISSService {
             }
         };
 
-        // Initial call
         await track();
-        
-        // Set up polling
+
         return setInterval(track, interval);
     }
 }

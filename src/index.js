@@ -31,9 +31,7 @@ async function displayUpcomingLaunches() {
     try {
         console.log('\n🚀 Upcoming Space Launches');
         console.log('========================');
-        
         const launches = await launchService.getUpcomingLaunches();
-        
         if (launches.length === 0) {
             console.log('No upcoming launches found.');
             return;
@@ -53,7 +51,6 @@ async function displayUpcomingLaunches() {
 async function main() {
     console.log('🌎 Space Explorer');
     console.log('================\n');
-    
     await displayAPOD();
     startISSTracking();
     await displayUpcomingLaunches();
